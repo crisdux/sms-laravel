@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4ea12a0e20a4a52983c999b5decf59e",
+    "content-hash": "28b44a41f5c9c387b2b0fd2155baaa8b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3059,16 +3059,16 @@
         },
         {
             "name": "twilio/sdk",
-            "version": "5.28.1",
+            "version": "5.41.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twilio/twilio-php.git",
-                "reference": "d12afc8f14022b032a2f90f878534c63adc90e6c"
+                "reference": "b10341d50d647b1015dd264c530f3b8bca345b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/d12afc8f14022b032a2f90f878534c63adc90e6c",
-                "reference": "d12afc8f14022b032a2f90f878534c63adc90e6c",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/b10341d50d647b1015dd264c530f3b8bca345b6c",
+                "reference": "b10341d50d647b1015dd264c530f3b8bca345b6c",
                 "shasum": ""
             },
             "require": {
@@ -3076,12 +3076,16 @@
             },
             "require-dev": {
                 "apigen/apigen": "^4.1",
-                "phpunit/phpunit": "4.5.*"
+                "guzzlehttp/guzzle": "^6.3",
+                "phpunit/phpunit": ">=4.5"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Twilio\\": "Twilio/"
+                    "Twilio\\": "src/Twilio/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3101,7 +3105,7 @@
                 "sms",
                 "twilio"
             ],
-            "time": "2019-01-12T01:01:52+00:00"
+            "time": "2019-12-18T19:43:22+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3216,6 +3220,7 @@
                 "psr",
                 "psr-7"
             ],
+            "abandoned": "laminas/laminas-diactoros",
             "time": "2018-09-05T19:29:37+00:00"
         }
     ],
