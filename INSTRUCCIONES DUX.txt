@@ -1,0 +1,13 @@
+HOLA CRIS DE FURURO, TE DEJO ESTE BLOG DE NOTAS CON LAS INSTRUCCIONES PARA QUE ESTE PROYECTO FUNCIONE: 
+
+1. CONSOLA: ./ngrok http 8000 
+2. php artisan serve 
+
+twilio link: 
+https://www.twilio.com/console  //pasword:coldplaylomejor
+
+link de tutorial completo: 
+https://www.twilio.com/blog/create-sms-portal-laravel-php-twilio
+
+link de un video de fazt (configuracion de twilio para ahcer pruebas)
+https://www.youtube.com/watch?v=wQoLbzHENEg
